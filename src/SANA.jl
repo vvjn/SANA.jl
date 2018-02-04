@@ -1,5 +1,12 @@
+__precompile__()
+
 module SANA
 
-# package code goes here
+using NetalignMeasures
+
+include("params.jl")
+include("measures.jl")
+include("timers.jl")
+include("sa.jl")
 
 end # module
